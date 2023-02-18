@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlib>
+#include <stdlib.h>
 #include <time.h>
 
 /**
@@ -12,9 +12,10 @@ int main(void)
 {
 	int n, LastDigit;
 
-	LastDigit = n % 10;
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
+
+	LastDigit = n % 10;
 
 	if (LastDigit > 5)
 	{
