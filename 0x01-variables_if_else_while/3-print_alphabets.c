@@ -3,7 +3,7 @@
 /**
  * main - alphabets lower and upper
  *
- * Return success(0)
+ * Return: 0 (success)
  */
 
 int main(void)
