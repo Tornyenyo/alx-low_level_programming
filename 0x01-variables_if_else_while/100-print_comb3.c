@@ -1,6 +1,6 @@
 #include<stdio.h>
 /**
- * main - do it
+ * main- do it
  *
  * Return (0) Success
  */
