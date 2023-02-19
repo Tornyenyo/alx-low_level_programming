@@ -3,7 +3,7 @@
 /**
  * main - code to run alphabet except q & e
  *
- * Return 0 (success)
+ * Return: 0 (success)
  */
 
 int main(void)
