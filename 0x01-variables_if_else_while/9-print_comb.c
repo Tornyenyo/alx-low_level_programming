@@ -1,6 +1,6 @@
 #include<stdio.h>
 /**
- * Main - commas babe
+ * main - commas babe
  *
  * Return: 0 (Success)
  */
