@@ -1,18 +1,16 @@
-#include<stdio.h>
+#include "main.h"
 /**
- * main- Program to display alphabets
+ * print_alphabet - Program to display alphabets
  *
  * Return: 0 (success)
  */
-int main(void)
+void print_alphabet(void)
 {
 	char i;
 
 	for (i = 'a'; i <= 'z'; i++)
 	{
-		putchar(i);
+		_putchar(i);
 	}
-	putchar('\n');
-
-	return (0);
+	_putchar('\n');
 }
