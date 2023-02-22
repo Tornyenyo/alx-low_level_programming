@@ -2,7 +2,6 @@
 
 /**
  * jack_bauer - time printing between two times
- * 
  */
 
 void jack_bauer(void)
