@@ -5,7 +5,7 @@
  *
  * Return: 0 (Why always me)
  */
-void _puts(char *str);
+void _puts(char *str)
 {
 	while (*str != '\0')
 	{
