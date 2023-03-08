@@ -7,7 +7,7 @@
  *
  * Return: Always
  */
-char *_memcpy(char *dest, char *src, unisgned int n)
+char *_memcpy(char *dest, char *src, unsigned int n)
 {
 	unsigned int i;
 
