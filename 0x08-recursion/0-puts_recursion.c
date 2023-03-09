@@ -3,7 +3,7 @@
  * _puts_recursion - prints a string
  * @s: the string to return
  */
-void _puts_recursion(char *s);
+void _puts_recursion(char *s)
 {
 	if (*s == '\0')
 		_putchar('\n');
