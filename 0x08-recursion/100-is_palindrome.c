@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _strlen_recursion - prints lenght of string
- * @s:
+ * @s: string to count
  * Return: Always
  */
 int _strlen_recursion(char *s)
@@ -23,13 +23,13 @@ int chk(char *s, int i, int j)
 	if (s[i] == s[j])
 		if (i > j / 2)
 			return (1);
-		else 
+		else
 			return (chk(s, i + 1, j - 1));
 	else
 		return (0);
 }
 /**
- * is_palidrom - check if s is a palidrome
+ * is_palindrome - check if s is a palidrome
  * @s: base address for string
  *
  * Return: 1 if n is prime, 0 otherwise.
