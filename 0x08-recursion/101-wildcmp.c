@@ -7,7 +7,7 @@
  * @j: index
  * Return: Always
  */
-int chk(char *s1, char s2, int i, int j)
+int chk(char *s1, char *s2, int i, int j)
 {
 	if (s1[i] == '\0' && s2[j] == '\0')
 		return (1);
