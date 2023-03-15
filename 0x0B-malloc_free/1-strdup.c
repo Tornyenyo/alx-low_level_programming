@@ -27,7 +27,6 @@ char *_strdup(char *str)
 		return (NULL);
 	}
 	memcpy(dup, str, len + 1);
-	
 	dup[len] = '\0';
 
 	return (dup);
