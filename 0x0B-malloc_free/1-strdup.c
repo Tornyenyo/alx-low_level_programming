@@ -11,7 +11,7 @@
  */
 char *_strdup(char *str)
 {
-	int len = 0;
+	int i, len = 0;
 	char *dup;
 
 	len = strlen(str);
@@ -19,6 +19,8 @@ char *_strdup(char *str)
 	{
 		return (NULL);
 	}
+	while (str[len] != '\0')
+		len++;
 
 	dup = (char *)malloc((sizeof(char) * len) + 1);
 
@@ -26,7 +28,8 @@ char *_strdup(char *str)
 	{
 		return (NULL);
 	}
-	memcpy(dup, str, len + 1);
+	for (i = 0; i < len; i++)
+		dup[i] = str[i];
 	dup[len] = '\0';
 
 	return (dup);
